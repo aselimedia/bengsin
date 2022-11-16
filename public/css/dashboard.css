@@ -1,0 +1,236 @@
+/* =============================== MAIN =============================== */
+.card {
+    flex-direction: row;
+    grid-template-columns: .3fr 1fr;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.card__picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.card__name {
+    padding: 20px;
+}
+
+.card__name-text {
+    font-size: var(--h1-font-size);
+}
+
+.card__balance-text {
+    font-size: var(--small-font-size);
+}
+
+.bengsin-image-dash {
+    width: 140px;
+    height: 140px;
+    margin-top: 20px;
+    border-radius: 200px;
+    background-color: #FA7524;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.bengsin-image-dash img {
+    width: 50%;
+}
+
+.bengsin-txt {
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: -10px;
+}
+
+textarea:focus, 
+textarea.home__search-dash:focus,
+input.home__search-dash:focus,
+[type=text].home__search-dash:focus, 
+[type=password].home__search-dash:focus, 
+[type=email].home__search-dash:focus, 
+[type=tel].home__search-dash:focus, 
+[contenteditable].home__search-dash:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 3px solid #FA7524 !important;
+    border-right: 0 !important;
+}
+
+.cari:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 3px solid #FA7524 !important;
+    border-left: 0 !important;
+}
+
+.home__input input {
+    margin-top: 20px;
+    height: 45px;
+    border-radius: 50px 0 0 50px;
+    font-size: 18px;
+    padding-left: 20px;
+    border-right: 0;
+    border: 3px solid #FA7524;
+    border-right: 0 !important;
+    outline: none;
+    box-shadow: none;
+}
+
+.cari {
+    margin-top: 20px;
+    height: 45px;
+    border-radius: 0 50px 50px 0;
+    background-color: white;
+    border: 3px solid #FA7524;
+    border-left: 0 !important;
+    box-shadow: none;
+    outline: none;
+}
+
+.promo {
+    font-size: 18pt;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.promo-card {
+    height: 150px;
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background: #F18A4C;
+    box-shadow: 0px 0px 8px 4px rgb(250 117 36 / 64%);
+}
+
+.circle-persen {
+    height: 150px;
+    margin-left: -50px;
+    margin-top: -50px;
+    width: 150px;
+    border-radius: 100px;
+    background-color: #E96011;
+}
+
+.circle-text {
+    font-size: 30pt;
+    margin-top: -85px;
+    margin-left: 25px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.all-promo {
+    font-size: 14pt;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.cuppon-name {
+    font-size: 14pt;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.cuppon-balance {
+    font-size: 18pt;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.section_search {
+    padding: 2rem 0 .5rem;
+}
+
+.section {
+    padding: 1rem 0 5rem;
+}
+
+@media screen and (max-width: 992px) {
+    .bengsin-image-dash {
+        width: 100px;
+        margin-top: 20px;
+        border-radius: 200px;
+        background-color: #FA7524;
+    }
+
+    .bengsin-image-dash img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .card {
+        border-radius: 10px;
+        border: 0;
+        box-shadow: 0px 5px 11px 0px rgb(0 0 0 / 30%);
+    }
+
+    .bengsin-image-dash {
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+        border-radius: 145px;
+        background-color: #FA7524;
+    }
+
+    .bengsin-image-dash img {
+        width: 50%;
+    }
+
+    .home__input input {
+        width: 100%;
+    }
+
+    .promo-card {
+        height: 120px;
+    }
+
+    .circle-persen {
+        height: 150px;
+        margin-left: -65px;
+        margin-top: -65px;
+        width: 150px;
+        border-radius: 100px;
+        background-color: #E96011;
+    }
+
+    .circle-text {
+        font-size: 25pt;
+        margin-top: -75px;
+        margin-left: 20px;
+    }
+
+    .all-promo {
+        font-size: 10pt;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+
+    .cuppon-name {
+        font-size: 10pt;
+        font-weight: 600;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    .cuppon-balance {
+        font-size: 15pt;
+        margin-top: 25px;
+    }
+}

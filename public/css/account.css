@@ -1,0 +1,114 @@
+.bg__account-header {
+    background: #ED5A00;
+    height: 200px;
+    border-radius: 0 0 30px 30px;
+}
+
+.card__account {
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -80px;
+    width: 100%;
+}
+
+.img__account-users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
+
+.img__account-users img {
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 4px 14px rgba(237, 90, 0, 0.55);
+    border-radius: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.name__account-users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.name__account-users p {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.17em;
+    color: #000000;
+}
+
+.email__account-users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email__account-users p {
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.17em;
+    color: #000000;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0 1rem;
+    position: relative;
+    top: -70px;
+}
+
+.box__setting-account {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background-color: #f2f3f7;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.box__setting-account:hover {
+    color: #ED5A00;
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+.box__setting-icon  {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.box__setting-icon i {
+    font-size: 20px;
+    margin-right: 30px;
+    color: #ED5A00;
+}
+
+.box__setting-icon p {
+    font-size: 15px;
+    margin-right: 30px;
+    padding-top: 5px;
+}
+
+.box__setting-arrow {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box__setting-arrow i {
+    font-size: 20px;
+}

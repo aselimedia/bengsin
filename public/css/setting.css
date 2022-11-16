@@ -1,0 +1,84 @@
+.setting__account {
+    padding: 1rem 0 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.setting {
+    display: flex;
+    justify-content: center;
+}
+
+.image__setting-up {
+    width: 150px;
+    height: 150px;
+    border-radius: 1000px;
+    transform: translate(0%, 0%);
+    overflow: hidden !important;
+    display: flex;
+    justify-content: center;
+}
+
+.my_file {
+    display: none;
+}
+
+#uploadButton {
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    cursor: pointer;
+}
+
+#uploadButton i {
+    font-size: 35px;
+    color: #dbdbdb;
+}
+
+.input-group {
+    margin-top: 20px;
+}
+
+.btn-save {
+    background-color: #FA7524;
+    width: 100%;
+    color: #FFF;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 3px 4px 4px 0px rgb(250 117 36 / 36%);
+}
+
+.btn-save:hover {
+    color: #FFF;
+    background-color: #fd8c46;
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+.btn-back-setting {
+    margin-top: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    color: #333;
+    border: 1px solid #FA7524;
+    box-shadow: 3px 4px 4px 0px rgb(250 117 36 / 36%);
+}
+
+.btn-back-setting:hover {
+    color: #333;
+    background-color: #fcfcfc;
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+.btn-save:focus,
+.btn-back-setting:focus {
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}

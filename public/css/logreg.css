@@ -1,0 +1,143 @@
+.bg_login {
+    width: 100%;
+    height: auto;
+    background-color: #ed5a00;
+    border-radius: 0 0 30px 30px;
+}
+
+.txt {
+    color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+    letter-spacing: 5px;
+}
+
+.txt_hai {
+    color: white;
+    padding-left: 20px;
+}
+
+.login-page {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.register-page {
+    padding: 20px;
+}
+
+.form-login {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.form-register {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    background-color: transparent;
+    color: #ffffff;
+    border: 0;
+    border-bottom: 3.5px solid #fff !important;
+}
+
+.form-control:focus, .form-control:active {
+    background: transparent;
+    outline: none;
+    color: #ffffff;
+}
+
+.form-control::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+    color: white;
+}
+
+.form-control::-ms-input-placeholder {
+    color: white;
+}
+
+.btn-submit {
+    margin-top: 50px;
+    width: 200px;
+    font-size: 15pt;
+    background-color: #fff;
+    border-radius: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    box-shadow: 0px 0px 8px 4px rgb(255 255 255 / 46%);
+}
+
+.forget {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.forget:hover {
+    color: #c0c0c0;
+    transition: 0.5s;
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+.box-login {
+    width: 80px;
+    height: 80px;
+    background: #ffffff;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 8px 4px rgb(0 0 0 / 30%);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.logo-image {
+    width: 40px;
+    margin-top: 20px;
+    margin: 20px;
+}
+
+.alert-register {
+    color: #842029;
+    background-color: #f8d7da;
+    margin-top: -7px;
+    padding: 0px;
+    text-align: center;
+    border-radius: 0 0 40px 40px;
+}
+
+.alert-login {
+    color: #842029;
+    background-color: #f8d7da;
+    margin-top: -22px;
+    padding: 0px;
+    text-align: center;
+    border-radius: 0 0 40px 40px;
+}
+
+.alert-danger li {
+    list-style: none;
+}
